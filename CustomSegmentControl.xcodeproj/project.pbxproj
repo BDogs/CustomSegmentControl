@@ -15,6 +15,8 @@
 		F97F68531D05A0680051BC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97F68511D05A0680051BC93 /* LaunchScreen.storyboard */; };
 		F97F685E1D05A0680051BC93 /* CustomSegmentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F97F685D1D05A0680051BC93 /* CustomSegmentControlTests.m */; };
 		F97F68691D05A0690051BC93 /* CustomSegmentControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F97F68681D05A0690051BC93 /* CustomSegmentControlUITests.m */; };
+		F97F68791D05A1C70051BC93 /* SimpleSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F97F68781D05A1C70051BC93 /* SimpleSegment.m */; };
+		F97F687B1D05A8D40051BC93 /* iconfont-wanke.png in Resources */ = {isa = PBXBuildFile; fileRef = F97F687A1D05A8D40051BC93 /* iconfont-wanke.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		F97F68641D05A0680051BC93 /* CustomSegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97F68681D05A0690051BC93 /* CustomSegmentControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentControlUITests.m; sourceTree = "<group>"; };
 		F97F686A1D05A0690051BC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97F68771D05A1C70051BC93 /* SimpleSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSegment.h; sourceTree = "<group>"; };
+		F97F68781D05A1C70051BC93 /* SimpleSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleSegment.m; sourceTree = "<group>"; };
+		F97F687A1D05A8D40051BC93 /* iconfont-wanke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-wanke.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +106,10 @@
 		F97F68421D05A0680051BC93 /* CustomSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				F97F68761D05A1030051BC93 /* CustomSegment */,
 				F97F68461D05A0680051BC93 /* AppDelegate.h */,
 				F97F68471D05A0680051BC93 /* AppDelegate.m */,
+				F97F687A1D05A8D40051BC93 /* iconfont-wanke.png */,
 				F97F68491D05A0680051BC93 /* ViewController.h */,
 				F97F684A1D05A0680051BC93 /* ViewController.m */,
 				F97F684C1D05A0680051BC93 /* Main.storyboard */,
@@ -138,6 +145,15 @@
 				F97F686A1D05A0690051BC93 /* Info.plist */,
 			);
 			path = CustomSegmentControlUITests;
+			sourceTree = "<group>";
+		};
+		F97F68761D05A1030051BC93 /* CustomSegment */ = {
+			isa = PBXGroup;
+			children = (
+				F97F68771D05A1C70051BC93 /* SimpleSegment.h */,
+				F97F68781D05A1C70051BC93 /* SimpleSegment.m */,
+			);
+			path = CustomSegment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97F687B1D05A8D40051BC93 /* iconfont-wanke.png in Resources */,
 				F97F68531D05A0680051BC93 /* LaunchScreen.storyboard in Resources */,
 				F97F68501D05A0680051BC93 /* Assets.xcassets in Resources */,
 				F97F684E1D05A0680051BC93 /* Main.storyboard in Resources */,
@@ -276,6 +293,7 @@
 				F97F684B1D05A0680051BC93 /* ViewController.m in Sources */,
 				F97F68481D05A0680051BC93 /* AppDelegate.m in Sources */,
 				F97F68451D05A0680051BC93 /* main.m in Sources */,
+				F97F68791D05A1C70051BC93 /* SimpleSegment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
